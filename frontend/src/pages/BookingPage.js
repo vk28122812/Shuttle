@@ -25,7 +25,7 @@ const BookingPage = () => {
   ];
 
   const navigateTocreate = () => {
-    navigate("book-shuttle")
+    navigate("/book-shuttle")
   }
   return (
     <div className="table-container">
