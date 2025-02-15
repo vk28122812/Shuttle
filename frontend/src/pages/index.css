@@ -1,0 +1,58 @@
+.table-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-booking-button {
+  margin-bottom: 20px;
+  background-color: #1890ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.ant-table {
+  border: 1px solid #ddd;
+}
+
+.ant-table-thead>tr>th {
+  background-color: #fafafa;
+  font-weight: bold;
+}
+
+.ant-table-tbody>tr>td {
+  padding: 10px;
+}
+
+.booking-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.booking-form .form-item {
+  margin-bottom: 16px;
+}
+
+.booking-form .form-item label {
+  font-weight: bold;
+}
+
+.booking-form .form-item input,
+.booking-form .form-item select,
+.booking-form .form-item .ant-picker {
+  width: 100%;
+}
+
+.booking-form .submit-button {
+  width: 100%;
+}
