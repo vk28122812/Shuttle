@@ -8,7 +8,6 @@ exports.createRoute = async (req, res) => {
       return res.status(400).json({ error: 'Invalid assigned driver ID' });
     }
     req.body.assignedDriver = driver._id;
-
     const route = new Route(req.body);
     await route.save();
     res.status(201).json(route);
